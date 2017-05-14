@@ -1,6 +1,8 @@
 public class BowlingGame {
 
-    public int getBowlingScore(String bowlingCode) {
-        return 0;
-    }
+  @SuppressWarnings("WeakerAccess")
+  public int getBowlingScore(String bowlingCode) {
+    return impl.BowlingScoreCalculator.calculate(bowlingCode);
+  }
+
 }
