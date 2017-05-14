@@ -1,4 +1,3 @@
-
 # Created by https://www.gitignore.io/api/osx,java,node,linux,windows,intellij
 
 ### Intellij ###
@@ -179,7 +178,6 @@ typings/
 
 # dotenv environment variables file
 .env
-
 
 ### OSX ###
 *.DS_Store
