@@ -28,5 +28,12 @@ public class BowlingGameTest {
     assertEquals(new BowlingGame().getBowlingScore(bowlingCode), 167);
   }
 
+  @Test
+  public void testOtherSituationK() throws Exception {
+    for (int i = 0; i < 1000; i += 1) {
+      testOtherSituation();
+    }
+  }
+
 }
 
